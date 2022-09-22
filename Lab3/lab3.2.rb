@@ -1,0 +1,10 @@
+x=gets().chomp.to_i
+if(x<=0&&x>-4)
+  puts(((x-2).abs)/((x**2)-Math.cos(x))**(1.0/7))
+end
+if(x>0&&x<=12)
+  puts(1/((Math.tan(x+(1/(Math::E**x))))/(Math.sin(x)**2)**(1.0/(7/2))))
+end
+if(x<-4||x>12)
+  puts(1/(1+(x/(1+(x/(1+x))))))
+end
